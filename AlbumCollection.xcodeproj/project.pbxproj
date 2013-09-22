@@ -19,6 +19,16 @@
 		E94C834617EB40F60034B358 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94C834417EB40F60034B358 /* MainStoryboard_iPhone.storyboard */; };
 		E94C834917EB40F60034B358 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94C834717EB40F60034B358 /* MainStoryboard_iPad.storyboard */; };
 		E94C834C17EB40F60034B358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C834B17EB40F60034B358 /* ViewController.m */; };
+		E94C835417EB41270034B358 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C835317EB41270034B358 /* Album.m */; };
+		E94C835617EB42410034B358 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94C835517EB42410034B358 /* AssetsLibrary.framework */; };
+		E94C835917EB44FD0034B358 /* ThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C835817EB44FD0034B358 /* ThumbnailCell.m */; };
+		E94C835C17EB49CC0034B358 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C835B17EB49CC0034B358 /* HeaderView.m */; };
+		E94C835F17EB55950034B358 /* MyflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C835E17EB55950034B358 /* MyflowLayout.m */; };
+		E94C836117EB55AD0034B358 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94C836017EB55AD0034B358 /* QuartzCore.framework */; };
+		E94C836417EB587B0034B358 /* MyLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C836317EB587B0034B358 /* MyLayoutAttributes.m */; };
+		E94C836717EB5EB60034B358 /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C836617EB5EB60034B358 /* StackLayout.m */; };
+		E94C836A17EB65BB0034B358 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C836917EB65BA0034B358 /* TitleView.m */; };
+		E94C836D17EB68CB0034B358 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C836C17EB68CB0034B358 /* GradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +49,24 @@
 		E94C834817EB40F60034B358 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E94C834A17EB40F60034B358 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E94C834B17EB40F60034B358 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E94C835217EB41270034B358 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		E94C835317EB41270034B358 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		E94C835517EB42410034B358 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E94C835717EB44FD0034B358 /* ThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailCell.h; sourceTree = "<group>"; };
+		E94C835817EB44FD0034B358 /* ThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailCell.m; sourceTree = "<group>"; };
+		E94C835A17EB49CC0034B358 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		E94C835B17EB49CC0034B358 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		E94C835D17EB55950034B358 /* MyflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyflowLayout.h; sourceTree = "<group>"; };
+		E94C835E17EB55950034B358 /* MyflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyflowLayout.m; sourceTree = "<group>"; };
+		E94C836017EB55AD0034B358 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E94C836217EB587B0034B358 /* MyLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayoutAttributes.h; sourceTree = "<group>"; };
+		E94C836317EB587B0034B358 /* MyLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayoutAttributes.m; sourceTree = "<group>"; };
+		E94C836517EB5EB60034B358 /* StackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackLayout.h; sourceTree = "<group>"; };
+		E94C836617EB5EB60034B358 /* StackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackLayout.m; sourceTree = "<group>"; };
+		E94C836817EB65BA0034B358 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		E94C836917EB65BA0034B358 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		E94C836B17EB68CB0034B358 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		E94C836C17EB68CB0034B358 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94C836117EB55AD0034B358 /* QuartzCore.framework in Frameworks */,
+				E94C835617EB42410034B358 /* AssetsLibrary.framework in Frameworks */,
 				E94C832D17EB40F60034B358 /* UIKit.framework in Frameworks */,
 				E94C832F17EB40F60034B358 /* Foundation.framework in Frameworks */,
 				E94C833117EB40F60034B358 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +105,8 @@
 		E94C832B17EB40F60034B358 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E94C836017EB55AD0034B358 /* QuartzCore.framework */,
+				E94C835517EB42410034B358 /* AssetsLibrary.framework */,
 				E94C832C17EB40F60034B358 /* UIKit.framework */,
 				E94C832E17EB40F60034B358 /* Foundation.framework */,
 				E94C833017EB40F60034B358 /* CoreGraphics.framework */,
@@ -91,6 +123,22 @@
 				E94C834717EB40F60034B358 /* MainStoryboard_iPad.storyboard */,
 				E94C834A17EB40F60034B358 /* ViewController.h */,
 				E94C834B17EB40F60034B358 /* ViewController.m */,
+				E94C835217EB41270034B358 /* Album.h */,
+				E94C835317EB41270034B358 /* Album.m */,
+				E94C835717EB44FD0034B358 /* ThumbnailCell.h */,
+				E94C835817EB44FD0034B358 /* ThumbnailCell.m */,
+				E94C835A17EB49CC0034B358 /* HeaderView.h */,
+				E94C835B17EB49CC0034B358 /* HeaderView.m */,
+				E94C835D17EB55950034B358 /* MyflowLayout.h */,
+				E94C835E17EB55950034B358 /* MyflowLayout.m */,
+				E94C836217EB587B0034B358 /* MyLayoutAttributes.h */,
+				E94C836317EB587B0034B358 /* MyLayoutAttributes.m */,
+				E94C836517EB5EB60034B358 /* StackLayout.h */,
+				E94C836617EB5EB60034B358 /* StackLayout.m */,
+				E94C836817EB65BA0034B358 /* TitleView.h */,
+				E94C836917EB65BA0034B358 /* TitleView.m */,
+				E94C836B17EB68CB0034B358 /* GradientView.h */,
+				E94C836C17EB68CB0034B358 /* GradientView.m */,
 				E94C833317EB40F60034B358 /* Supporting Files */,
 			);
 			path = AlbumCollection;
@@ -180,6 +228,14 @@
 				E94C833917EB40F60034B358 /* main.m in Sources */,
 				E94C833D17EB40F60034B358 /* AppDelegate.m in Sources */,
 				E94C834C17EB40F60034B358 /* ViewController.m in Sources */,
+				E94C835417EB41270034B358 /* Album.m in Sources */,
+				E94C835917EB44FD0034B358 /* ThumbnailCell.m in Sources */,
+				E94C835C17EB49CC0034B358 /* HeaderView.m in Sources */,
+				E94C835F17EB55950034B358 /* MyflowLayout.m in Sources */,
+				E94C836417EB587B0034B358 /* MyLayoutAttributes.m in Sources */,
+				E94C836717EB5EB60034B358 /* StackLayout.m in Sources */,
+				E94C836A17EB65BB0034B358 /* TitleView.m in Sources */,
+				E94C836D17EB68CB0034B358 /* GradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
